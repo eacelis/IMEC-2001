@@ -1,0 +1,54 @@
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Entornos virtuales y configuraciones de Python
+venv/
+.env/
+.venv/
+
+# Archivos de configuración y datos sensibles
+*.env
+*.secret
+config.py
+
+# Logs y resultados temporales
+logs/
+*.log
+*.tmp
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entorno conda (si usas Anaconda/miniconda)
+.conda/
